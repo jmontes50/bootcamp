@@ -128,15 +128,47 @@ Debes configurar tu entorno de trabajo, es decir:
 #### Contenidos que pueden ayudarte en la configuración del entorno
 
 - [Tutoriales para la preparación del entorno Java](https://github.com/Laboratoria/java-setup)
-- [¿Cómo instalo Java?](https://www.java.com/pt-BR/download/help/download_options_pt-br.html)
+- [¿Cómo instalo Java?](https://www.java.com/es/download/help/develop_es.html)
 - [Install IntelliJ IDEA](https://www.jetbrains.com/help/idea/installation-guide.html)
 - [Guía paso a paso para instalar Intellij Idea en Mac](https://www.geeksforgeeks.org/step-by-step-guide-to-install-intellij-idea)
 
-### 4.2 Hito 2 - Primeros pasos con el lenguaje
+> [!TIP]
+> Para verificar el correcto funcionamiento de tus instalaciones,
+> te sugerimos crear la primera clase del proyecto que incluya el método main.
+> Agrega un comando que imprima "¡Hola mundo!" en la consola.
+> Esto te permitirá confirmar la adecuada configuración de tus ajustes.
 
-Crea la primera clase del proyecto que contenga el método main. Puedes agregar
-un comando que muestre "¡Hola mundo!" en la consola.
-Así podrás verificar si tus configuraciones son correctas.
+### 4.2 Hito 2 - Comprensión del Diagrama de Clases
+
+Te proporcionamos un [Diagrama de Clases](#diagrama-de-clases) como punto de partida para la construcción de tu proyecto. Utiliza esta [documentación](https://diagramasuml.com/diagrama-de-clases/) para comprender el diagrama, ya que es esencial entender su significado antes de comenzar el desarrollo del proyecto.
+
+En este hito, es crucial comprender la representación del diagrama. Puedes apoyarte en las siguientes preguntas para validar tu comprensión:
+
+- ¿Qué es una clase?
+- ¿Identificas las atributos y métodos más importantes de cada clase?
+- ¿En base a las atributos y métodos, puedes indicar qué rol cumplirá cada clase?
+- ¿Qué clases se extienden/heredan de otras?
+- ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
+- ¿Identificas los diferentes símbolos de visibilidad de las atributos y métodos en cada clase?
+
+### 4.3 Hito 3 - Crea la estructura básica del juego
+
+Durante esta fase, es crucial desarrollar las [clases](https://www.geeksforgeeks.org/classes-objects-java/) fundamentales del juego de la mano del [diagrama](#diagrama-de-clases). Cada clase debe contener sus atributos y métodos respetando su nivel de [visibilidad](https://www.simplilearn.com/tutorials/java-tutorial/access-modifiers#:~:text=Access%20modifiers%20in%20Java%20allow,control%20access%20from%20other%20classes.). Para cada clase especificada, crea un archivo individual utilizando un formato consistente, como por ejemplo `Player.java` para la clase `Player`.
+
+Necesitarás realizar la extensión de una clase a otra, heredando propiedades, como por ejemplo, de la clase `Player` a `HumanPlayer`. Puedes revisar documentación relacionada con el concepto de [herencia](https://www.geeksforgeeks.org/inheritance-in-java/?ref=lbp) para obtener una comprensión más profunda de este proceso.
+
+Considera pasar al siguiente hito, cuando puedas contestar estas preguntas:
+
+- ¿Qué son las clases y cómo construirlas?
+- ¿Qué son los métodos y cómo utilizarlos?
+- ¿Qué tipos de datos existen en el lenguaje? (Recuerda los que más usaste en
+  JavaScript y trata de buscar tipos similares).
+- ¿Qué son los modificadores de acceso como: `public`, `private`, `protected`?
+- ¿Qué es el encapsulamiento? ¿Cómo hacerlo?
+- ¿Qué es la herencia? ¿Cómo crearla en Java?
+
+### 4.3 Hito 3 - Crea la estructura básica del juego
+
 Además, puedes estudiar conceptos del lenguaje como:
 
 - ¿Qué son las clases y cómo construirlas?
