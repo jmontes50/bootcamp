@@ -151,9 +151,29 @@ En este hito, es crucial comprender la representación del diagrama. Puedes apoy
 - ¿Qué tipo de relación tiene la clase `Player` con `HumanPlayer`?
 - ¿Identificas los diferentes símbolos de visibilidad de las atributos y métodos en cada clase?
 
-### 4.3 Hito 3 - Crea la estructura básica del juego
+> [!NOTE]
+> Es comprensible que, en este momento, puedas no sentirte completamente segura al responder las preguntas anteriores. En los próximos hitos, abordaremos cada una de las clases, y a medida que avancemos, te animamos a encontrar una mayor conexión entre lo que estás construyendo y el diagrama de clases.
 
-Durante esta fase, es crucial desarrollar las [clases](https://www.geeksforgeeks.org/classes-objects-java/) fundamentales del juego de la mano del [diagrama](#diagrama-de-clases). Cada clase debe contener sus atributos y métodos respetando su nivel de [visibilidad](https://www.simplilearn.com/tutorials/java-tutorial/access-modifiers#:~:text=Access%20modifiers%20in%20Java%20allow,control%20access%20from%20other%20classes.). Para cada clase especificada, crea un archivo individual utilizando un formato consistente, como por ejemplo `Player.java` para la clase `Player`.
+### 4.3 Hito 3 - Crea la estructura básica de la clase GuessTheNumberGame
+
+Es crucial desarrollar las clases fundamentales del juego conforme al diagrama de clases proporcionado. Cada clase debe definir cuidadosamente sus atributos y métodos, respetando la adecuada configuración de visibilidad (como se explica en este enlace sobre [modificadores de acceso en Java](https://www.simplilearn.com/tutorials/java-tutorial/access-modifiers#:~:text=Access%20modifiers%20in%20Java%20allow,control%20access%20from%20other%20classes.)).
+
+Iniciaremos el proceso con la clase predeterminada del proyecto, GuessTheNumberGame. Si observamos el diagrama, esta clase requiere dos atributos: uno denominado "random" y otro llamado "targetNumber". Comencemos creando el atributo "targetNumber" de tipo primitivo [int](https://www.geeksforgeeks.org/data-types-in-java/).
+
+Es importante destacar que el atributo "random" es de un tipo de referencia especial. Para manejar esto, será necesario importar [java.util.Random](https://www.geeksforgeeks.org/java-util-random-nextint-java/). Cuando trabajas con tipos de referencia, especialmente fuera de los tipos primitivos, es probable que necesites realizar importaciones adicionales; ten esto presente durante el proceso.
+
+### 4.4 Hito 4 - Iniciando el juego
+
+Continuaremos nuestro trabajo en la clase GuessTheNumberGame, esta vez enfocándonos en obtener el número de nuestra jugadora. Para lograrlo, es necesario hacer referencia e importar la clase [java.util.Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html). Posteriormente, podremos [comparar](https://www.w3schools.com/java/java_conditions.asp) este número con el número a adivinar, targetNumber, y según el resultado, indicar si está demasiado alto, demasiado bajo o si ha acertado.
+
+> [!IMPORTANT]
+> En este momento, la jugadora ya puede proponer un número, y al hacerlo, el juego concluye. El objetivo a tener en cuenta es implementar la posibilidad de que pueda seguir jugando hasta adivinar el número.
+
+### 4.5 Hito 5 - Agregando una nueva jugadora
+
+Con el objetivo de aumentar la escalabilidad del proyecto, introduciremos una clase [abstracta](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html#:~:text=An%20abstract%20class%20is%20a,but%20they%20can%20be%20subclassed.&text=When%20an%20abstract%20class%20is,methods%20in%20its%20parent%20class.) llamada Player. Al ser abstracta, funcionará como una plantilla que permitirá a otras clases heredar sus atributos y métodos. Esta clase constará de dos atributos: "name", de tipo String, y "guesses", un array de enteros. Además, implementaremos métodos para acceder y retornar estos atributos, así como un método abstracto llamado "makeGuess", el cual eventualmente habilitará a las jugadoras para realizar sus intentos de adivinanza.
+
+<!-- Hasta aquí los cambios -->
 
 Necesitarás realizar la extensión de una clase a otra, heredando propiedades, como por ejemplo, de la clase `Player` a `HumanPlayer`. Puedes revisar documentación relacionada con el concepto de [herencia](https://www.geeksforgeeks.org/inheritance-in-java/?ref=lbp) para obtener una comprensión más profunda de este proceso.
 
