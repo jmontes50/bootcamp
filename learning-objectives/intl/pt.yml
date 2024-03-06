@@ -1,6 +1,6 @@
-# Párrafo que aparece en el README en la sección de Objetivos de aprendizaje
-# de cada proyecto.
-description: >
+# Parágrafo que aparece no README na seção de Objetivos de aprendizagem
+# de cada projeto.
+descrição: >
   Reflita e depois enumere os objetivos que quer alcançar e aplique no seu
   projeto. Pense nisso para decidir sua estratégia de trabalho.
 
@@ -16,8 +16,8 @@ html/semantics:
   links:
     - title: HTML semântico
       url: topics/html/html5/semantic-html
-    - title: Semantics in HTML - MDN
-      url: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML
+    - title: Semântica em HTML - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#Semantics_in_HTML
 
 css:
   title: CSS
@@ -25,9 +25,9 @@ css:
 css/selectors:
   title: Uso de seletores de CSS
   links:
-    - title: Intro a CSS
+    - title: Introdução a CSS
       url: topics/css/css/intro-css
-    - title: CSS Selectors - MDN
+    - title: Seletores CSS - MDN
       url: https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors
 
 css/box-model:
@@ -36,10 +36,10 @@ css/box-model:
     - title: Modelo de Caixa e Display
       url: topics/css/css/boxmodel-and-display
     - title: The box model - MDN
-      url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
-    - title: Introduction to the CSS box model - MDN
-      url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
-    - title: CSS display - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/The_box_model
+    - title: Box model - MDN
+      url: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+    - title: Display - MDN
       url: https://developer.mozilla.org/pt-BR/docs/Web/CSS/display
     - title: display - CSS Tricks
       url: https://css-tricks.com/almanac/properties/d/display/
@@ -52,15 +52,17 @@ css/flexbox:
     - title: Flexbox Froggy
       url: https://flexboxfroggy.com/#pt-br
     - title: Flexbox - MDN
-      url: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+      url: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox
 
 css/grid:
   title: Uso de CSS Grid Layout
   links:
     - title: A Complete Guide to Grid - CSS Tricks
       url: https://css-tricks.com/snippets/css/complete-guide-grid/
+    - title: Conceitos básicos de Grid Layout
+      url: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
     - title: Grids - MDN
-      url: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids
+      url: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Grids
 
 css/media-queries:
   title: Uso de media queries
@@ -75,7 +77,7 @@ browser/dom:
   title: DOM (Document Object Model)
 
 browser/dom/selectors:
-  title: Uso de seletores de DOM
+  title: Uso de seletores do DOM
   links:
     - title: Modificando o DOM
       url: topics/browser/dom/1-dom-methods-selection
@@ -169,10 +171,12 @@ js/data-types/arrays:
       url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
 js/data-types/objects:
-  title: Objetos (key, value)
+  title: Objetos (chave, valor)
   links:
     - title: Objetos em JavaScript
       url: topics/javascript/objects/objects
+    - title: Trabalhando com objetos
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_objects
 
 js/data-types/primitive-vs-non-primitive:
   title: Diferenciar entre tipos de dados primitivos e não primitivos
@@ -220,6 +224,12 @@ js/recursion:
       url: https://www.youtube.com/watch?v=lPPgY3HLlhQ
     - title: Recursão o Recursividade - Laboratoria Developers em Medium (espanhol)
       url: https://medium.com/laboratoria-developers/recursi%C3%B3n-o-recursividad-ec8f1a359727
+    - title: Javascript#10 - Função recursiva - YouTube Clube Full-Stack
+      url: https://www.youtube.com/watch?v=VWVcE5BoJLs
+    - title: 25 - Recursão (parte 1) - YouTube Brazillian Dev
+      url: https://www.youtube.com/watch?v=mHUB7l9uJ7M
+    - title: 26 - Recursão (parte 2) - YouTube Brazillian Dev
+      url: https://www.youtube.com/watch?v=nd2tMJXC7bs
 
 js/semantics:
   title: Uso de identificadores descritivos (Nomenclatura e Semântica)
@@ -287,7 +297,7 @@ js/async/promises:
   title: Promessas
   links:
     - title: Promise - MDN
-      url: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
+      url: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise
     - title: How to Write a JavaScript Promise - freecodecamp (em inglês)
       url: https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/
 
@@ -484,6 +494,10 @@ node:
       url: https://nodejs.org/pt-br/about/
     - title: learnyounode - NodeSchool
       url: https://github.com/workshopper/learnyounode
+    - title: Node.JS: o que é, como funciona esse ambiente de execução JavaScript e um Guia para iniciar
+      url: https://www.alura.com.br/artigos/node-js
+    - title: O Que É npm? Introdução Básica para Iniciantes
+      url: https://www.hostinger.com.br/tutoriais/o-que-e-npm
     - title: ¿Qué es Node.js y para qué sirve? - drauta.com
       url: https://www.drauta.com/que-es-nodejs-y-para-que-sirve
     - title: ¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube
@@ -496,7 +510,7 @@ node:
 node/npm-install:
   title: Instalar e usar módulos com npm
   links:
-    - title: Sitio oficial de npm (em inglês)
+    - title: Site oficial do npm (em inglês)
       url: https://www.npmjs.com/
 
 node/package.json:
